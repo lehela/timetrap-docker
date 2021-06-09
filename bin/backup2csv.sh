@@ -1,11 +1,12 @@
 #!/bin/bash
 
-OUTPUT=/host/data/timetrap.csv
+# This script is to be run inside the container
 
-# To be run inside the container
-t d -f csv > $OUTPUT
-chown 1001:1001 $OUTPUT
+OUTPUT=~/data/timetrap.csv
+
+# Write backup of all timesheets
+t d -f csv all > $OUTPUT
 
 echo 
-echo "CSV file written to " $OUTPUT
+echo "Info >> CSV file written to " $OUTPUT
 echo

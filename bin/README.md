@@ -1,0 +1,1 @@
+Scripts in this folder are meant to be run from inside the container
