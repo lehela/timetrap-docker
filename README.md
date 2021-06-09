@@ -1,6 +1,6 @@
 # TimeTrap 
 
-Runs the [TimeTrap]([https://link](https://github.com/samg/timetrap)) time tracker inside a docker container. 
+Runs the [samg/timetrap](https://github.com/samg/timetrap) project inside a docker container. 
 
 ## Installation
 1. Clone repository
