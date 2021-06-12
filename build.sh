@@ -10,5 +10,5 @@ docker image build \
     --build-arg USERNAME=$USERNAME \
     --build-arg USERUID=$USERUID \
     --build-arg GROUPUID=$GROUPUID \
-    --tag timetrap:latest \
+    --tag lehela/timetrap:latest \
     .

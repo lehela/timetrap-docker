@@ -18,6 +18,7 @@ chmod 600 data/*
 docker run --rm -it \
     -v "$(pwd)/data":/home/$USERNAME/data \
     -v "$(pwd)/bin":/usr/local/host/bin \
+    --name timetrap \
     --hostname timetrap \
-    timetrap:latest \
+    lehela/timetrap:latest \
     /usr/local/host/bin/bootstrap.sh $LOCALTZ
